@@ -1,0 +1,122 @@
+    <!DOCTYPE html>
+     <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>The Technical Enquirer</title>
+         <link rel="stylesheet" href="style.css">
+     </head>
+     <body>
+         <header>
+             <div class="logo-title">
+                 <h1>The Technical Enquirer</h1>
+             </div>
+         </header>
+     
+     <main>
+         <article>
+             <h2>Neuralink’s Second Human Trial Shocks World: Participants Claim Telepathic Abilities</h2>
+             <p class="byline">By: The Technical Enquirer - September 2024</p>
+
+             <img src="author_image.jpeg" alt="Author Image" class="author-image">
+
+             <p>In a discovery that has stunned the scientific community, Elon Musk’s brain-implant company Neuralink has reported surprising results in its second human trial. The two trial participants have developed telepathic abilities, raising questions about the future of human communication.</p>
+
+             <h3>Beyond Expectations</h3>
+             <p>Neuralink’s second human trial, which was designed to help people with neurodegenerative diseases like ALS and Parkinson’s, has shown results much bigger then the company’s original intent. The two trial participants have reported being able to communicate without speaking, sharing thoughts and emotions through what researchers are calling “neural synchronization.”</p>
+
+             <p>Dr. Noel Rigaux, a Neuralink researcher, shared some details with The Technical Enquirer anonymously. “We were expecting improvements in brain patterns, but what we’re seeing right now is far beyond anything we've expected. These two people are describing a shared mental space, where thoughts and emotions are shared instantly.”</p>
+
+             <h3>The Data Behind the Claims</h3>
+             <p>While the claims of telepathy might seem crazy, the data coming out of Neuralink’s lab is even crazier. Research logs show an 85% increase in brain activity among the participants, with their frontal lobes showing amazing levels of synchronization.</p>
+             
+             <img src="brain_synchronization.png" alt="Visualization of brain synchronization and neural activity" class="responsive-image">
+
+
+             <p>In one test, the participants were asked to solve a problem together. And without speaking, they began completing each other’s thoughts and solved the problem in record time. “It’s almost as if their minds were working together,” said Dr. Abe Ullman, a scientist who reviewed the data. “We’re witnessing something that could change the world.”</p>
+
+             <h3>Doubts Arise, But Evidence Grows</h3>
+             <p>Not everyone is convinced, many people claim that these telepathic abilities are just a side effect of the implant. Dr. Lucas Shumsky, a brain-computer specialist, remains highly doubtful. “It’s easy to mistake shared thoughts and emotions as something bigger, this could just be due to the brain overloading under the intense stimulation.” he said.</p>
+
+             <p>However, both participants are coming forward with very similar stories. Norland Arbaugh, a 28-year-old trial subject, described an experience that sounds like science fiction. “I sat across from the other participant, and I could sense what he was going to say before he spoke. It’s not like reading minds, it’s more like knowing what they’re going to say.”</p>
+
+             <h3>Global Debate</h3>
+             <p>If telepathy can be created with brain implants, what does that mean for our privacy? “We’re talking about a huge change in human communication that could completely erase our personal thoughts,” said Dr. Ethan Casson, a researcher from Harvard University. “Imagine a future where your private thoughts aren’t private at all, where anyone could read your mind. That’s the kind of thing we need to consider before continuing with the trials.”</p>
+
+             <h3>Musk’s Suspicious Response</h3>
+             <p>Elon Musk himself has been oddly suspicious in his responses to these findings. In a post on X, Musk said, “The brain is more powerful than we realize. This is only the beginning." Even though he hasn’t aknowledged the telepathy claims directly, his statement has only supported the fact that Neuralink might be close to discovering a technology that could change human communication forever.</p>
+
+             <img src="musk_chat.png" alt="Elon Musk's X post" class="responsive-image">
+
+             <p>In an interview, Musk hinted that Neuralink’s potential is still unknown. “We’re barely scratching the surface of what the human brain can do. People were skeptical about electric cars, and now they’re everywhere. The same thing will happen with Neuralink. We’re just opening the door to a new chapter in the human race.”</p>
+
+             <h3>What Comes Next?</h3>
+             <p>As Neuralink’s human trials continue, the world waits for more details and verification. Is this really the beginning of a new era, or simply an unexpected side effect of an experimental technology? Stay tuned to The Technical Enquirer for live updates on this groundbreaking story.</p>
+         </article>
+
+         <aside>
+             <div class="related-articles">
+                 <h3>Related Articles</h3>
+                 <ul>
+                     <li><a href="https://www.neuralink.com">Neuralink: What You Need to Know</a></li>
+                     <li><a href="https://www.embs.org/pulse/articles/the-future-of-brain-computer-interfaces/">The Future of Brain-Computer Interfaces</a></li>
+                     <li><a href="https://theaiinsider.tech/2024/09/13/elon-musks-vision-for-the-80-20-ai-future/#:~:text=He%20stated%3A%20“Everyone%20will%20want,them%20accessible%20to%20almost%20everyone.">Musk's Vision for the Future of AI</a></li>
+                 </ul>
+             </div>
+         </aside>
+         </main>
+
+         <footer>
+         <p>&copy; 2024 The Technical Enquirer | <a href="#" id="privacy-link">Privacy Policy</a> | <a href="#" id="terms-link">Terms of Service</a></p>
+         </footer>
+
+         <!-- Pop-up Modal -->
+         <div id="popup-modal" class="modal">
+         <div class="modal-content">
+             <span class="close">&times;</span>
+             <h2 id="modal-title"></h2>
+             <p id="modal-text"></p>
+         </div>
+         </div>
+
+         <script>
+         // Get modal elements
+         const modal = document.getElementById("popup-modal");
+         const modalTitle = document.getElementById("modal-title");
+         const modalText = document.getElementById("modal-text");
+         const closeBtn = document.getElementsByClassName("close")[0];
+
+         // Privacy Policy Content
+         const privacyText = "Your personal information is not being stored, as this website is 101% fake and you shouldn't take any of this seriously because this is just for a school project:)";
+
+         // Terms of Service Content
+         const termsText = "Use this website for entertainment purposes only. All content is 101% fake and shouldn't be taken seriously because this is just for a school project:)";
+
+         // Open modal for Privacy Policy
+         document.getElementById("privacy-link").addEventListener("click", function () {
+             modalTitle.textContent = "Privacy Policy";
+             modalText.textContent = privacyText;
+             modal.style.display = "block";
+         });
+
+         // Open modal for Terms of Service
+         document.getElementById("terms-link").addEventListener("click", function () {
+             modalTitle.textContent = "Terms of Service";
+             modalText.textContent = termsText;
+             modal.style.display = "block";
+         });
+
+         // Close modal
+         closeBtn.onclick = function () {
+             modal.style.display = "none";
+         };
+
+         // Close modal if user clicks outside of it
+         window.onclick = function (event) {
+             if (event.target == modal) {
+                 modal.style.display = "none";
+             }
+         };
+         </script>
+         </body>
+         </html>
