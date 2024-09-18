@@ -262,8 +262,8 @@ img[alt="Breaking News"] {
 
 /* Third image (Musk's X post image) - make slightly bigger */
 img[alt="Visualization of brain synchronization and neural activity"] {
-    width: 80%; /* Increased size from 85% */
-    max-width: 525px; /* Increased max-width */
+    width: 70%; /* Increased size from 85% */
+    max-width: 500px; /* Increased max-width */
     height: auto;
     display: block;
     margin: 20px auto;
