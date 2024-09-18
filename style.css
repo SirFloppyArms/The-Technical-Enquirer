@@ -270,3 +270,18 @@ img[alt="Visualization of brain synchronization and neural activity"] {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+
+.content-container {
+    display: flex;
+    align-items: center; /* Vertically aligns the image and paragraph */
+}
+
+.text-content {
+    flex: 1; /* Makes sure the paragraph takes up space */
+    margin-right: 20px; /* Adds space between the paragraph and image */
+}
+
+.responsive-image {
+    max-width: 50%; /* Adjust this value as needed */
+    height: auto;
+}
