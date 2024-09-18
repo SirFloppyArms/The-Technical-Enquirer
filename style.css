@@ -251,8 +251,8 @@ img[alt="Elon Musk's X post"] {
 
 /* Third image (Musk's X post image) - make slightly bigger */
 img[alt="Breaking News"] {
-    width: 90%; /* Increased size from 85% */
-    max-width: 550px; /* Increased max-width */
+    width: 75%; /* Increased size from 85% */
+    max-width: 470px; /* Increased max-width */
     height: auto;
     display: block;
     margin: 20px auto;
