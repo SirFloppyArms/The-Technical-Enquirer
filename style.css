@@ -241,29 +241,7 @@ footer {
 /* Third image (Musk's X post image) - make slightly bigger */
 img[alt="Elon Musk's X post"] {
     width: 100%; /* Increased size from 85% */
-    max-width: 575px; /* Increased max-width */
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-/* Third image (Musk's X post image) - make slightly bigger */
-img[alt="Breaking News"] {
-    width: 75%; /* Increased size from 85% */
-    max-width: 470px; /* Increased max-width */
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-/* Third image (Musk's X post image) - make slightly bigger */
-img[alt="Visualization of brain synchronization and neural activity"] {
-    width: 80%; /* Increased size from 85% */
-    max-width: 525px; /* Increased max-width */
+    max-width: 550px; /* Increased max-width */
     height: auto;
     display: block;
     margin: 20px auto;
